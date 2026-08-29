@@ -99,7 +99,7 @@ export default function Dashboard() {
   const [selectedMetrics, setSelectedMetrics] = useState<string[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [selectedRange, setSelectedRange] = useState("30d");
+  const [selectedRange, setSelectedRange] = useState("All");
   const [filteredData, setFilteredData] = useState<DataPoint[]>([]);
   const [projectName, setProjectName] = useState<string>("");
   const [projectUrl, setProjectUrl] = useState<string>("");
